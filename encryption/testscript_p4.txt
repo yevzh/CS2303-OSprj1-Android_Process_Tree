@@ -1,0 +1,55 @@
+root@generic:/data/misc/pstree # ./server
+Server initiating...
+Receiving message from Client1 at 01:46:17: I have finally completed my project!
+Receiving message from Client2 at 01:46:32: Oh, congratulations~
+Receiving message from Client2 at 01:46:54: How much time did you spend on it?
+Receiving message from Client1 at 01:47:16: Three whole days!!
+Receiving message from Client2 at 01:47:29: That's really a tough job..
+Receiving message from Client1 at 01:48:11: I have to go to sleep...
+Receiving message from Client1 at 01:48:17: :q
+Client1 has just quited at 01:48:17!
+Receiving message from Client3 at 01:48:34: hello
+Receiving message from Client3 at 01:48:35: 
+Receiving message from Client3 at 01:48:50: good night
+Receiving message from Client2 at 01:48:58: :q
+Client2 has just quited at 01:48:58!
+
+
+
+root@generic:/data/misc/pstree # ./client
+Please enter the message: I have finally completed my project!          
+From server at 01:46:18: L kdyh ilqdoob frpsohwhg pb surmhfw!
+Please enter the message: Three whole days!!
+From server at 01:47:16: Wkuhh zkroh gdbv!!
+Please enter the message: I have to go to sleep...
+From server at 01:48:11: L kdyh wr jr wr vohhs...
+Please enter the message: :q
+You terminated the client at 01:48:17
+client closing at 01:48:17
+root@generic:/data/misc/pstree # 
+
+
+
+root@generic:/data/misc/pstree # ./client 
+Please enter the message: Oh, congratulations~
+From server at 01:46:32: Rk, frqjudwxodwlrqv~
+Please enter the message: How much time did you spend on it?
+From server at 01:46:54: Krz pxfk wlph glg brx vshqg rq lw?
+Please enter the message: That's really a tough job..
+From server at 01:47:29: Wkdw'v uhdoob d wrxjk mre..
+Please enter the message: :q
+You terminated the client at 01:48:58
+client closing at 01:48:58
+root@generic:/data/misc/pstree # 
+
+
+root@generic:/data/misc/pstree # ./client
+Please enter the message: Actually, that's easy!
+From server at 01:47:55: Please wait...
+Please enter the message: hello
+From server at 01:48:34: khoor
+Please enter the message: 
+From server at 01:48:35: 
+Please enter the message: good night
+From server at 01:48:50: jrrg qljkw
+Please enter the message: 
