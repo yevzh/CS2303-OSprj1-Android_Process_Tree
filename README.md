@@ -1,5 +1,7 @@
 # CS2303-Project1-Android_Process_Tree
 
+This is the first project for Operating System in SJTU, semester 2022 Spring.
+
 The project is composed of 4 sub-problems.
 
 ## Problem 1: Implement ptree syscall, printing the Android Process Tree in AVD
